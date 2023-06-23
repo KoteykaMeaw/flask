@@ -31,6 +31,6 @@ def gen_pass():
     for i in range(10):
         password += random.choice(elements)
 
-    return  password
+    return f'<h1>Ваш пароль: {password}</h1>'
 
 app.run(debug=True)
